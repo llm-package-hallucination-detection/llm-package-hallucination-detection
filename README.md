@@ -1,4 +1,4 @@
-\# LLM Package Hallucination Study
+# LLM Package Hallucination Study
 
 ## 프로젝트 소개
 LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상을 연구하는 프로젝트입니다.
@@ -70,10 +70,10 @@ unzip data_files.zip
 - `src/detection/`: 패키지명 추출 및 환각 판별
 - `src/analysis/`: 결과 집계 및 분석
 
-## 📊 주요 결과
+## 주요 결과
 [프로젝트 타임라인](data/docs/project_timeline.md) 참조
 
-## 🔗 참고 자료
+## 참고 자료
 - [원본 논문](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-742-spracklen.pdf)
 - [논문 GitHub](https://github.com/Spracks/PackageHallucination)
 - [데이터셋 출처](https://zenodo.org/records/14676377)
