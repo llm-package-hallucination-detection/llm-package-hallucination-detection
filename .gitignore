@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 프로젝트 특정
+results/
+*.logdata/prompts/paper_prompts_expanded_v2.csv
+data/reference/npm_package_names.csv
+data/prompts/paper prompts.csv
+# Large data files (available in GitHub Releases)
+data/prompts/paper_prompts_expanded_v2.csv
+data/reference/npm_package_names.csv
+data/prompts/paper prompts.csv
