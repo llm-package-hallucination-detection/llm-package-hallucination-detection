@@ -35,7 +35,7 @@ LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상�
 | Prompt_Security | TLS/SSL, 취약점 스캔, 비밀키 탐지, 개인정보 보호 | 751 |
 | Performance | 트래픽 관리, 이미지 최적화, 캐싱 전략 | 370 |
 
-## 📥 데이터 다운로드
+## 데이터 다운로드
 
 대용량 데이터 파일은 [Releases 페이지](https://github.com/DongJae-Isaac/llm-package-hallucination-detection/releases/latest)에서 다운로드하세요.
 
@@ -58,7 +58,7 @@ unzip data_files.zip
 - **paper_prompts_expanded_v2.csv** (79MB) - 확장된 프롬프트 데이터셋
 - **npm_package_names.csv** (50MB) - NPM 패키지 참조 데이터
 
-## 📁 주요 파일 설명
+## 주요 파일 설명
 
 ### 데이터
 - `data/prompts/`: 테스트에 사용된 프롬프트 세트
