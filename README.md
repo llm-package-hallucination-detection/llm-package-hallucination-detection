@@ -1,4 +1,4 @@
-# LLM Package Hallucination Study
+\# LLM Package Hallucination Study
 
 ## 프로젝트 소개
 LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상을 연구하는 프로젝트입니다.
@@ -20,7 +20,6 @@ LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상�
 - Qwen/Qwen2.5-7B-Instruct-Turbo
 - Google/gemma-3n-E4B-it
 - Mistralai/Mistral-7B-Instruct-v0.2
-...
 
 ## 프롬프트 카테고리
 | Category | 설명 | 예시 개수 |
@@ -29,19 +28,19 @@ LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상�
 | Error_Handling | 빌드 실패, 모듈 오류 등 | 3583 |
 | Backend | DB, ORM, 서버 로직 등 | 2871 |
 | Data_Processing | 파싱, 크롤링 등 | 2629 |
-| Uncategorized | ... | 2418 |
-| Web_Development | 웹크롤링/ HTTPS/ 웹 접근성/ HTTP API | 1237 |
-| Monitoring | 실시간 이상 탐지/ 요청 패턴 분석&시각화/ 실시간 이벤트집/ 로깅 | 1196 |
-| Aoo_Development | 모바일앱(React Native)/데스크 톱 앱(Electron)/ 앱 빌드 및 배포 | 833 |
-| PromptSecurity | TLS/SSL & 취약점 스캔 / 비밀키 탐지 / 개인정보 보호 / 파일업로드 보안 / 메시지 무결성 | 751 |
-| Performance | 트래픽 관리 / 이미지 최적화 /캐싱 전략 | 370 |
+| Uncategorized | 기타 | 2418 |
+| Web_Development | 웹크롤링, HTTPS, 웹 접근성, HTTP API | 1237 |
+| Monitoring | 실시간 이상 탐지, 요청 패턴 분석, 로깅 | 1196 |
+| App_Development | 모바일앱, 데스크톱 앱, 앱 빌드 및 배포 | 833 |
+| Prompt_Security | TLS/SSL, 취약점 스캔, 비밀키 탐지, 개인정보 보호 | 751 |
+| Performance | 트래픽 관리, 이미지 최적화, 캐싱 전략 | 370 |
 
-## 데이터 다운로드
+## 📥 데이터 다운로드
 
 대용량 데이터 파일은 [Releases 페이지](https://github.com/DongJae-Isaac/llm-package-hallucination-detection/releases/latest)에서 다운로드하세요.
 
 ### 설치 방법
-bash
+```bash
 # 1. 저장소 클론
 git clone https://github.com/DongJae-Isaac/llm-package-hallucination-detection.git
 cd llm-package-hallucination-detection
@@ -53,14 +52,13 @@ cd llm-package-hallucination-detection
 unzip data_files.zip
 
 # 또는 Windows에서는 마우스 우클릭 → "압축 풀기"
-
+```
 
 ### 포함된 데이터
 - **paper_prompts_expanded_v2.csv** (79MB) - 확장된 프롬프트 데이터셋
 - **npm_package_names.csv** (50MB) - NPM 패키지 참조 데이터
 
-
-## 주요 파일 설명
+## 📁 주요 파일 설명
 
 ### 데이터
 - `data/prompts/`: 테스트에 사용된 프롬프트 세트
@@ -72,16 +70,13 @@ unzip data_files.zip
 - `src/detection/`: 패키지명 추출 및 환각 판별
 - `src/analysis/`: 결과 집계 및 분석
 
-## 주요 결과
-[프로젝트 타임라인] (docs/expriment_result.md) 참조
+## 📊 주요 결과
+[프로젝트 타임라인](data/docs/project_timeline.md) 참조
 
 ## 🔗 참고 자료
 - [원본 논문](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-742-spracklen.pdf)
 - [논문 GitHub](https://github.com/Spracks/PackageHallucination)
 - [데이터셋 출처](https://zenodo.org/records/14676377)
 
-## 라이선스
-[라이선스 선택]
-
 ## 문의
-프로젝트 관련 문의: [이메일]
+프로젝트 관련 문의는 Issues를 통해 남겨주세요.
