@@ -38,16 +38,26 @@ LLM이 npm 패키지를 추천할 때 발생하는 환각(hallucination) 현상�
 
 ## 데이터 다운로드
 
-대용량 데이터 파일은 [Releases 페이지](https://github.com/DongJae-Isaac/llm-package-hallucination-detection/releases)에서 다운로드하세요:
+대용량 데이터 파일은 [Releases 페이지](https://github.com/DongJae-Isaac/llm-package-hallucination-detection/releases/latest)에서 다운로드하세요.
 
-- **paper_prompts_expanded_v2.csv** (79MB) - 확장된 프롬프트 데이터
-- **npm_package_names.csv** (50MB) - NPM 패키지 참조 데이터
-
-### 다운로드 후 배치
+### 설치 방법
 ```bash
-# 다운로드한 파일을 다음 경로에 배치하세요
-data/prompts/paper_prompts_expanded_v2.csv
-data/reference/npm_package_names.csv
+# 1. 저장소 클론
+git clone https://github.com/DongJae-Isaac/llm-package-hallucination-detection.git
+cd llm-package-hallucination-detection
+
+# 2. Releases에서 data_files.zip 다운로드
+# https://github.com/DongJae-Isaac/llm-package-hallucination-detection/releases/latest
+
+# 3. 압축 해제
+unzip data_files.zip
+
+# 또는 Windows에서는 마우스 우클릭 → "압축 풀기"
+```
+
+### 포함된 데이터
+- **paper_prompts_expanded_v2.csv** (79MB) - 확장된 프롬프트 데이터셋
+- **npm_package_names.csv** (50MB) - NPM 패키지 참조 데이터
 
 
 ## 주요 파일 설명
