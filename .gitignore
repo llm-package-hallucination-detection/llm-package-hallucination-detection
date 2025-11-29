@@ -20,12 +20,21 @@ build/
 .DS_Store
 Thumbs.db
 
-# 프로젝트 특정
-results/
-*.logdata/prompts/paper_prompts_expanded_v2.csv
-data/reference/npm_package_names.csv
-data/prompts/paper prompts.csv
-# Large data files (available in GitHub Releases)
+# Logs
+*.log
+
+# Large files - Available in GitHub Releases
 data/prompts/paper_prompts_expanded_v2.csv
 data/reference/npm_package_names.csv
-data/prompts/paper prompts.csv
+data/results/gemma/*.csv
+data/results/gpt_oss/*.csv
+data/results/marin/*.csv
+data/results/mistral/*.csv
+data/results/ollama/*.csv
+data/results/qwen/*.csv
+
+# Temporary files
+*.zip
+check.js
+fixgit.js
+recover.js
